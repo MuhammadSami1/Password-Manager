@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+*{
+  margin: 0px;
+  padding:0px;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.navbar{
+  background-color:  rgb(23 93 220);
+  padding: 12px 3px;
+  display: flex;
+  color: white;
+
+}
+#brandname{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+}
+.logo{
+  background-image: url('images/R-removebg-preview.png');
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  margin-left: 14px;
+  
+}
+
+li{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  margin-left: 13px;
+  color: white;
+  font-size: 16px;
+  padding: 7px;
+  
+}
+a:hover{
+  border: 2px solid  white;
+}
+table {
+  border: 2px solid  black;
+}
+tr{
+  border: 2px solid black;
+}
+.container{
+  margin: 23px;
+
+}
+h1 ,h2, h3{
+   
+  margin: 23px 0px;
+}
+#btn { 
+  background-color: gray;
+  font-size: 20px;
+  font-weight: 700;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 3px;
+  cursor: pointer;
+
+}
+#btn:hover{
+  background-color: #c0b300;
+  border: 2px solid black;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fort Knox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav class="navbar">
+    <div class="logo"></div>
+    <div>
+        <a href="#" id="brandname">Fort Knox</a> 
+    </div>  
+        
+    
+    <ul class="unorderlist">
+        <li class="list">
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">About Us</a>
+            
+        </li>
+    </ul>
+   </nav>
+   <div class="container">
+    <h1>PassWord Manager</h1>
+    <p>Welcome to the Fort Knox of Password Management!
+
+        🔐 Are you tired of juggling a gazillion passwords, trying to remember which one goes where? Well, you're in the right place! 🙌
+        
+        We know, the struggle is real. But worry not, because we're here to rescue you from the chaos of forgotten passwords and security nightmares.
+        
+        Imagine a world where your digital life is locked up tighter than a vault at the heart of a secret bunker. That's what we offer – a digital fortress to protect your online kingdom. 💂‍♂️</p>
+    <h2>Your Passwords</h2>
+    <table>
+        <tr>
+            <th>Website</th>
+            <th>Username</th>
+            <th>Password</th>
+            <th>Delete</th>
+            
+        </tr>
+        <tr>
+            <td>Facebook</td>
+            <td>abc</td>
+            <td>xyz</td>
+            <td>abc</td>
+        </tr>
+        
+    </table>
+    <h2>Add a Password</h2>
+    <form action="sumbit" method="post">
+        <!-- Text input for Username -->
+        <label for="Username">Username:</label>
+        
+        <input type="text" name="Username" placeholder="Username"><br><br>
+        
+        <!-- Input Password -->
+        <label for="password">Password:</label>
+        
+        <input type="password" name="password" placeholder="PassWord"><br><br>
+        
+        <!-- Submit button -->
+        <button type="submit" id="btn">Submit</button>
+    </form>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
