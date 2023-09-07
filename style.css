@@ -59,7 +59,7 @@ h1 ,h2, h3{
    
   margin: 23px 0px;
 }
-#btn { 
+.btn { 
   background-color: gray;
   font-size: 20px;
   font-weight: 700;
@@ -70,7 +70,7 @@ h1 ,h2, h3{
   cursor: pointer;
 
 }
-#btn:hover{
+.btn:hover{
   background-color: #c0b300;
   border: 2px solid black;
 }
